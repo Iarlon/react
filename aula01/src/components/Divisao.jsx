@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Divisao = () => {
+const Divisao = (props) => {
   return (
-    <div>Divisao</div>
+    <div>a divisão de num1 e num2 é {props.num1 / props.num2}</div>
   )
 }
 
