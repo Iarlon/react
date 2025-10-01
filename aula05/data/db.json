@@ -1,0 +1,15 @@
+{
+    "alunos":[
+        {
+            "id": 1,
+            "name": "Iarlon",
+            "email": "iarlon@iarlon.com"
+        },
+        {
+            "id": 1,
+            "name": "Henrique Monkey",
+            "email": "monkeyco@monkeyco.com"
+        }
+
+    ]
+}
