@@ -10,9 +10,17 @@ const ResgatandoDados = () => {
             const data = await res.json();
             setAlunos(data)
         }
-    })
+        fetchData()
+    }, [])
   return (
-    <div>{fetchData()}</div>
+    <div>
+      <h2>Lista de Alunos</h2>
+      <ul>
+          {alunos.map((aluno) =>(
+            <li key={aluno.id}>{aluno.name}</li>
+          ))}
+      </ul>
+    </div>
   )
 }
 
