@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
+import BannerAd from '../src/components/BannerAd'
 
 const Inicial = () => {
   return (
@@ -65,6 +66,7 @@ const Inicial = () => {
           </Card>
         </Col>
       </Row>
+      <BannerAd/>
     </Container>
   )
 }
